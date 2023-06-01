@@ -4,7 +4,7 @@ import Task1.Actor;
 
 public interface QueueBehavior {
     
-    void takelnQueue(Actor actor);
+    void takeInQueue(Actor actor);
     void takeOrder();
     void giveOrder();
     void releaseFromQueue();

@@ -29,6 +29,14 @@ public abstract class Actor implements ActorBehavior {
         isTakeOrder = true;
     }
 
+    public void unsetMakeOrder() {
+        isMakeOrder = false;
+    }
+
+    public void unsetTakeOrder() {
+        isTakeOrder = false;
+    }
+
     public String getName() {
         return name;
     }
